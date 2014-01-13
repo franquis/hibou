@@ -34,7 +34,7 @@ setuptools.setup(
     author='Franquis',
     author_email='franquis@gmail.com',
     keywords="hubic swift cloud storage",
-    install_requires=['python-swiftclient','flask','requests','pewee'],
+    install_requires=['python-swiftclient','flask','flask_sqlalchemy';'Flask-OAuthlib','requests','pewee'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
