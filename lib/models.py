@@ -1,7 +1,6 @@
 from peewee import *
 
 db = SqliteDatabase('../databases/production.sqlite')
-#db = MySQLDatabase('nac2', host="localhost", user="root", passwd="bonjour")
 
 
 class HibouModel(Model):
